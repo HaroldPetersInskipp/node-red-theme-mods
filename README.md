@@ -1,2 +1,2 @@
 # node-red-theme-mods
-Mods for Node-red themes
+Mods for the Node-red theme OLED to be a little easier on the eyes.
