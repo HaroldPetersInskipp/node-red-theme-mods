@@ -1,0 +1,60 @@
+#red-ui-palette-shade,
+#red-ui-editor-shade,
+#red-ui-header-shade,
+#red-ui-sidebar-shade {
+  background-color: rgba(110, 0, 0, 0.1);
+}
+
+.red-ui-tabs-fade {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    width: 15px;
+    background-image: linear-gradient(to right, rgba(240, 240, 240, 0.001), #101010);
+    pointer-events: none;
+}
+
+.red-ui-tabs ul li.active .red-ui-tabs-fade {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.001), #101010);
+}
+
+.ui-widget-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(110,0,0,.1);
+    z-index: 5;
+    z-index: 100;
+    opacity: 1;
+}
+
+.red-ui-sidebar-shade {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(110,0,0,.1);
+    z-index: 5;
+}
+
+.red-ui-flow-node-button-background {
+    fill: #000;
+}
+
+.red-ui-flow-node {
+    stroke: #505050;
+    cursor: move;
+    stroke-width: 1.2;
+}
+
+.red-ui-editor {
+  scrollbar-color: #202020 #080808;
+}
+
+.red-ui-palette-port {
+    background: #222;
+}
