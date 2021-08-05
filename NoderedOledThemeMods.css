@@ -49,7 +49,6 @@
     stroke: #505050;
     cursor: move;
     stroke-width: 1.2;
-    filter: brightness(70%);
     filter: saturate(180%) brightness(80%) grayscale(25%);
 }
 
@@ -59,4 +58,8 @@
 
 .red-ui-palette-port {
     background: #222;
+}
+
+.red-ui-palette-node {
+    filter: saturate(180%) brightness(80%) grayscale(25%);
 }
